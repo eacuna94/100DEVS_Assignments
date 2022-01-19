@@ -7,6 +7,13 @@ li {
   list-style-type: none; 
 }
 
+article {
+  color: black;
+  text-decoration-color: none;
+  display: flex;
+  align-items: flex-end;
+}
+
 .navbar {
     background-color: black;
     display: flex;
@@ -58,3 +65,51 @@ nav li {
     grid-row-start: 1;
     grid-row-end: 3;
 }
+
+.a1-image {
+  max-height: 20em;
+  max-width: auto;
+  object-fit: contain;
+}
+
+.ft-image {
+  max-height: 10em;
+  max-width: auto;
+  object-fit: contain;
+}
+
+.article-container {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+}
+
+/* .a1 {
+  background-image: url('images/pic1.jpeg');
+  background-size: cover;
+}
+
+.a2 {
+  background-image: url('images/pic2.jpeg');
+  background-size: cover;
+}
+
+.a3 {
+  background-image: url('images/pic3.jpeg');
+  background-size: cover;
+}
+
+.a4 {
+  background-image: url('images/pic4.jpeg');
+  background-size: cover;
+}
+
+.a5 {
+  background-image: url('images/pic5.jpeg');
+  background-size: cover;
+} */
