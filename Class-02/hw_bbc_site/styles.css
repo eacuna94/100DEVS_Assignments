@@ -7,12 +7,12 @@ li {
   list-style-type: none; 
 }
 
-article {
+/* article {
   color: black;
   text-decoration-color: none;
   display: flex;
   align-items: flex-end;
-}
+} */
 
 .navbar {
     background-color: black;
@@ -61,6 +61,14 @@ nav li {
     width: 100%;
 }
 
+.news {
+  margin: 0 15px;
+  display: grid;
+  grid-template-columns: repeat( 3, 1fr );
+  grid-template-rows: 10em;
+  grid-gap: 1em;
+}
+
 .featured article:first-child {
     grid-row-start: 1;
     grid-row-end: 3;
@@ -72,7 +80,7 @@ nav li {
   object-fit: contain;
 }
 
-.ft-image {
+.ft-image, .n-img {
   max-height: 10em;
   max-width: auto;
   object-fit: contain;
